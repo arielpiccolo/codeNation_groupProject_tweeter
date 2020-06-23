@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
 
+.tweeter {
+    margin: 0 50px;
+} 
+
+
 .navContainer {
     padding: 30px;
 }
@@ -16,7 +21,7 @@ ul li {
     
 }
 
-.active, .tweeter{
+.active, .tweeter {
     color: rgb(29, 161, 242);
 }
 
