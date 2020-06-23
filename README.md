@@ -1,2 +1,0 @@
-# codeNation_groupProject_tweeter
-codeNation_groupProject_tweeter (Ariel,Matt,Shaquille)
