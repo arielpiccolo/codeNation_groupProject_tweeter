@@ -24,7 +24,7 @@ function Nav() {
                 <li><img className="icon" src={tweeterBell} alt="notification" width='20px' /> Notifications</li>
                 <li> <img className="icon" src={tweeterEnvelope} alt="message" width='25px' /> Messages</li>
                 <li> <img className="icon" src={tweeterBookmark} alt="bookmarks" width='25px' /> Bookmarks</li>
-                <li> <img className="icon" src={tweeterList} alt="lizt" width='25px' /> Lists</li>
+                <li> <img className="icon" src={tweeterList} alt="list" width='25px' /> Lists</li>
                 <li> <img className="icon" src={profile} alt="profile" width='25px' /> Profile</li>
                 <li> <img className="icon" src={tweeterMore} alt="more" width='25px' /> More</li>
             </ul>

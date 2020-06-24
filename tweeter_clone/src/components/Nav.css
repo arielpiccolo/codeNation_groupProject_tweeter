@@ -12,13 +12,19 @@
 
 
 ul li {
+    display: flex;
+    /* height: 100%; */
     margin: 0 15px;
     list-style: none;
     font-family: 'Roboto Condensed', sans-serif;
     padding: 15px 0;
     font-weight: 600;
     font-size: 1rem;
-    
+    align-items: center;
+}
+
+li img {
+    margin-right: 15px;
 }
 
 .active, .tweeter {
