@@ -1,6 +1,6 @@
 import React from 'react';
 import './Nav.css';
-import tweeter from '../img/tweeter.png';
+import twitter from '../img/twitter.png';
 import tweeterHome from '../img/tweeterHome.png';
 import profile from '../img/profile.png';
 import tweeterBell from '../img/tweeterBell.png';
@@ -16,7 +16,7 @@ function Nav() {
     return (
         <div className="navContainer">
             <div className="tweeter">
-                <img className="bird" src={tweeter} alt="tweeter-logo" width='30px' />
+                <img className="bird" src={twitter} alt="tweeter-logo" width='30px' />
             </div>
             <ul>
                 <li className="active"> <img className="icon" src={tweeterHome} alt="home" width='20px' /> Home</li>
