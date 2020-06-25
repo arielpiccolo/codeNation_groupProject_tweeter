@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.twitImg {
+   border-radius: 20px;
+}
+    
+.NewsfeedWrapper {
+
+    background-color: #f4f4f4;
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    width: 150px;
+}
+  
+
+h1 {
+    margin: 0;
+    font-weight: 600;
+}
+h3 {
+    font-weight: 500;
+}
+h5 {
+    font-weight: 100;
+}
+.twitImg {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+}
+.articleContent {
+    display: flex;
+    padding: 0 19px;
+}

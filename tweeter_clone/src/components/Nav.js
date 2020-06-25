@@ -27,9 +27,10 @@ function Nav() {
                 <li> <img className="icon" src={tweeterList} alt="list" width='25px' /> Lists</li>
                 <li> <img className="icon" src={profile} alt="profile" width='25px' /> Profile</li>
                 <li> <img className="icon" src={tweeterMore} alt="more" width='25px' /> More</li>
-            </ul>
+                <br />
+                <button className="btn">Tweet</button>
 
-            <button className="btn">Tweet</button>
+            </ul>
 
         </div>
     );
