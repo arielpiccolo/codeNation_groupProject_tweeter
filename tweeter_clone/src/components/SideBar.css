@@ -10,12 +10,12 @@
 }
     
 .NewsfeedWrapper {
-    float: right;
+
     background-color: #f4f4f4;
     padding: 15px;
     font-family: 'Roboto', sans-serif;
     border-radius: 5px;
-    width: 400px;
+    width: 150px;
 }
   
 

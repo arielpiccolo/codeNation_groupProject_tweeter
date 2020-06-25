@@ -6,9 +6,12 @@ function SideBar(props) {
 
 
         <div className="NewsfeedWrapper">
-            <h1>{props.Maintitle}</h1>
 
             <div className="articleContent">
+
+                <h1>{props.Maintitle}</h1>
+
+
                 <div>
                     <h5>{props.Title1}</h5>
                     <h3>{props.Title2}</h3>
@@ -20,6 +23,7 @@ function SideBar(props) {
             </div>
 
             <h2>{props.Foottitle}</h2>
+
         </div>
     )
 }
