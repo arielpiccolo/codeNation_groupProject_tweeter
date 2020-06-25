@@ -2,10 +2,16 @@
 
 
 .tweeter {
-    width: fit-content;
+    width: 100px;
+    height: 35px;
     margin: 0 30px;
-
 } 
+
+.bird:hover {
+    
+    background-color: hsla(203, 89%, 53%, 0.1);
+    border-radius: 25px;
+}
 
 
 .navContainer {
@@ -15,7 +21,7 @@
 
 
 ul, li {
-    width: 350px;
+    width: 340px;
     margin: 0 15px;
     list-style: none;
     font-family: 'Roboto Condensed', sans-serif;
@@ -29,8 +35,25 @@ li img {
     margin-right: 15px;
 }
 
+li {
+    width: 140px;
+}
+
+li:hover {
+    height: fit-content;
+    color:  rgb(29, 161, 242);
+    background-color: hsla(203, 89%, 53%, 0.1);
+    border-radius: 25px;
+
+}
+
+
 .active, .tweeter {
     color: rgb(29, 161, 242);
+}
+
+.icon {
+    background-color: transparent;
 }
 
 .btn {
@@ -45,3 +68,4 @@ li img {
     font-weight: 600;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 28px;
 }
+
