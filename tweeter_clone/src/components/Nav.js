@@ -15,26 +15,26 @@ import tweeterList from '../img/tweeterList.png'
 
 
 function Nav() {
-    return (
-        <div className="navContainer">
-            <div className="tweeter">
-                <img className="bird" src={tweeter} alt="tweeter-logo" width='35px' />
-            </div>
-            <ul>
-                <li className="active"> <img className="icon" src={tweeterHome} alt="home" width='25px' /> Home</li>
-                <li> <img className="icon" src={tweeterHash} alt="explore" width='25px' /> Explore</li>
-                <li><img className="icon" src={tweeterBell} alt="notification" width='20px' /> Notifications</li>
-                <li> <img className="icon" src={tweeterEnvelope} alt="message" width='25px' /> Messages</li>
-                <li> <img className="icon" src={tweeterBookmark} alt="bookmarks" width='25px' /> Bookmarks</li>
-                <li> <img className="icon" src={tweeterList} alt="lists" width='25px' /> Lists</li>
-                <li> <img className="icon" src={profile} alt="profile" width='25px' /> Profile</li>
-                <li> <img className="icon" src={tweeterMore} alt="more" width='25px' /> More</li>
-            </ul>
+	return (
+		<div className="navContainer">
+			<div className="tweeter">
+				<img className="bird" src={tweeter} alt="tweeter-logo" width='35px' />
+			</div>
+			<ul>
+				<li className="active"> <img className="icon" src={tweeterHome} alt="home" width='25px' /> Home</li>
+				<li> <img className="icon" src={tweeterHash} alt="explore" width='25px' /> Explore</li>
+				<li><img className="icon" src={tweeterBell} alt="notification" width='20px' /> Notifications</li>
+				<li> <img className="icon" src={tweeterEnvelope} alt="message" width='25px' /> Messages</li>
+				<li> <img className="icon" src={tweeterBookmark} alt="bookmarks" width='25px' /> Bookmarks</li>
+				<li> <img className="icon" src={tweeterList} alt="lists" width='25px' /> Lists</li>
+				<li> <img className="icon" src={profile} alt="profile" width='25px' /> Profile</li>
+				<li> <img className="icon" src={tweeterMore} alt="more" width='25px' /> More</li>
+			</ul>
 
-            <Button />
+			<Button />
 
-        </div>
-    );
+		</div>
+	);
 }
 
 export default Nav
